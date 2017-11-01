@@ -1,0 +1,42 @@
+body {
+font-size: 30pt;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+color: #77FFCC;
+line-height: 14pt;
+padding-left: 5pt;
+padding-right: 5pt;
+padding-top: 5pt;
+background-size: 100% 100%;
+}
+h1 {
+font: 30pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+color:white;
+font-weight: bold;
+line-height: 20pt;
+}
+p.subheader {
+font-weight: bold;
+color: #593d87;
+}
+img {
+padding: 3pt;
+float: right;
+width:250pt;
+}
+a {
+text-decoration: none;
+}
+a:link, a:visited {
+font 15pt;
+color: #CCCCFF;
+}
+a:hover, a:active {
+color: #FFFF33;
+}
+div.footer {
+font-size: 9pt;
+font-style: italic;
+line-height: 12pt;
+text-align: center;
+padding-top: 30pt;
+}
