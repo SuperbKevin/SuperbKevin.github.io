@@ -11,6 +11,9 @@ padding-left: 5pt;
 padding-right: 5pt;
 padding-top: 5pt;
 }
+#header{
+width:98%;
+}
 p {
 font-size:18px;
 }
@@ -26,9 +29,10 @@ line-height: 20pt;
 h2{
 color:#3366CC;
 }
-td{
+#content{
 background-repeat:no-repeat;
 background-position:center;
+background-image:url(img/html1.jpg);
 }
 a {
 text-decoration: none;
@@ -41,30 +45,33 @@ color:#9933CC;
 a:hover, a:active {
 font-size:36px;
 font:"Courier New", Courier, monospace;
-
 color: #FF9933;
+}
+marquee{
+color:#FF0000;
 }
 </style>
 </head>
 <body>
         <table border=0 width=98% align=center>
-                        <tr><td align=center>
+                        <div id="header" align="center">
                                     <br>
                                     <h1>Hey you there!!</h1>
                                     <br>
-                        </td></tr>
-                        <tr><td  style="background-image:url(img/html1.jpg)" align=center>
+                        </div>
+                        <div id="content" align="center">
                             <br><br><br><br><br>
 							<h2>Congratulations !!!</h2><br><br>
-                            <p>You find the entrance to the world of HTML~~</p>
-							<br><br><br><br><br><br><br><br><br><br><br><br><br>
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br>
-							<marquee behavior="scroll" direction="right" height="100%" width="60%" hspace="50" vspace="20" loop="-1" scrollamount="10" onMouseOut="this.start()" onMouseOver="this.stop()"> 
-							<p class="down">If your want to know how can we create a webpage like this and learn about HTML</marquee>
+                            <p>You find the entrance to the world of <strong>HTML</strong>~~</p>
+							<br>
+							<marquee behavior="scroll" direction="down" height="100%" width="55%" hspace="50" vspace="20" loop="-1" scrollamount="10" onMouseOut="this.start()" onMouseOver="this.stop()"> 
+							<p class="down">If your want to know how can we create a webpage like this and learn about HTML~
+							<br><br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+							&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i><strong>Follow me!</strong></i></marquee></p>
 							<br>
                             <a href="Main page/Main page.html">Click here to continue</a>
 							<br><br><br>
-                        </td></tr>
+                        </div>
         </table>						
 </body>
 </html>
