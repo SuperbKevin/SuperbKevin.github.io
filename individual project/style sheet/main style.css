@@ -6,6 +6,7 @@ margin:0px 210px 20px 180px;
 border:0;
 padding:15px;
 z-index:3;
+background-repeat:no-repeat;
 }
 h1{
 font-size:75px;
@@ -16,6 +17,7 @@ color:#FF6600;
 #navAlpha{
 position:absolute;
 min-width:128px;
+max-width:138px;
 width:auto;
 top:155px;
 left:20px;
@@ -26,7 +28,7 @@ z-index:2;
 }
 #navBeta{
 position:absolute;
-min-width:168px;
+max-width:168px;
 width:auto;
 top:155px;
 right:20px;
@@ -34,6 +36,7 @@ border:1px dashed black;
 background-color:#eee;
 padding:10px;
 z-index:1;
+max-width:150px;
 }
 #logo{
 position:absolute;
@@ -79,5 +82,8 @@ font:"Courier New", Courier, monospace;
 color:#00FF33;
 }
 a.changestyle{
-color:#0099CC;
+color:#FF3300;
+}
+h1#longtitle{
+font-size:38px;
 }
