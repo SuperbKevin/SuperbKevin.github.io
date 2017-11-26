@@ -1,13 +1,75 @@
+</html>
 <html>
 <head>
-<title>This is the main page.</title>
+<title>Introduction for CSS.</title>
 <link rel="shortcut icon" href="../../icon/firsticon.ico">
+<link rel="stylesheet" href="../style sheet/main style.css">
 </head>
 <body>
-
-<h1>In this page you will learn what css is and how it works.</h1>
-<a href="../Main page/Main page.html">Back to Main Page.</a>
-
+    <div id="logo">
+        <img src="../img/doggy doggy.jpg" width="80"/>
+    </div>
+    <div id="header">
+        <h1>What is CSS?</h1>
+    </div>
+	<div id="navAlpha">
+	    <h4>If you haven't learned about <span>tags of HTML</span>, please <a href="../HTML/tags.html"> click here </a> and learn something about <strong>tags</strong> first!</h4>
+	</div>
+	<div id="navBeta">
+	    <h4><span style="color:#FF0033">JavaScript</span> is used to implement special effects on Web pages. </h4>
+		For example:<br>
+		the mouse glides over the pop-up pull-down menu. Or the background color changes of the mouse over the table.<br> 
+	</div>
+    <div class="content">
+        <span style="font-size:18px; color:#000000">After learning about HTMl, you must want to know more about how to create a <strong style="color:#FF0000">awesome webpage</strong>.So let's get started with <span>CSS</span> now.</span>
+		<p><span>CSS (English full name: Cascading Style Sheets)</span> is a computer language used to represent <span>HTML</span>. <span>CSS</span> can not only <strong>modify the webpage statically</strong>, but also <strong>dynamically format all the elements of the page with a variety of scripting languages</strong>.</p>
+		<span>CSS</span> can control the layout of elements in web pages precisely, support <strong>almost all font size styles</strong>, and have the ability to <strong>edit web objects and model styles</strong>.		
+	</div>
+	<div class="content">
+        <table>
+		    <tr>
+			    <td><strong>Engllish name:</strong> Cascading Style Sheets</td>
+				<td><strong>Abbreviation:</strong> CSS (also for file extensions)</td>
+			</tr>
+		</table>
+	</div>
+	<div class="content">
+        <h2>Programming tools</h2>
+		    <strong>Notepad or Notepad++</strong>: use Windows system with Notepad, you can edit the web page. You just need to save.Html when you save the document.
+			<p><strong>Dreamweaver</strong>: a visual web development tool( actually it is the programming tool I use to develop this website).</p>
+			<h2>Characteristic</h2>
+			<span>CSS</span> provides a style description for <span>HTML markup language</span>, and defines the display mode of its elements. <span>CSS</span> is a <strong>breakthrough</strong> in the field of Web design. It can be used to modify a small style and update all the page elements associated with it.
+			<h2>Working principle</h2>
+			<span>CSS</span> can define style structures, such as <strong>fonts, colors, locations, and so on</strong>, which are used to describe information formatting and reality in Web pages. <span>CSS styles</span> can be stored directly in <span>HTML</span> pages or separate <strong>style sheets</strong>. A style rule consists of one or more style attributes and their values.
+			<ul>
+			    <li>When used <strong>externally</strong>, the style rule is placed in an external stylesheet document with a file extension .Css.</li>
+				<br>
+				<li>The <strong>internal style sheet</strong> is directly placed in the page, and the external style sheet is kept in an independent document. The web page links the external style sheet through a special label.</li>
+			</ul>
+	</div>
+	<div class="content" style=" background-image:url(../img/css.jpg); background-size:100% 100%">
+	<h2>Example of CSS code</h2>
+    <pre style="font-size:16px; color:#FFFFFF">
+	  <strong><span style="color:#CC00CC">body {</span>
+            font-size: 10pt;
+            font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+            color: #00FFFF;
+            line-height: 14pt;
+            padding-left: 5pt;
+            padding-right: 5pt;
+            padding-top: 5pt;
+            background-size: 100% 100%;
+            <span style="color:#CC00CC">}
+			
+        h1 {</span>
+            font: 30pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+            color:black;
+            font-weight: bold;
+            line-height: 20pt;
+			<span style="color:#CC00CC">}</span></strong>
+    </pre>
+	</div>
+    <div id="footer"> <a href="../Main page/Main page.html">Back to Main Page.</a> </div>
 </body>
 
 </html>
